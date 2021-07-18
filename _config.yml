@@ -1,7 +1,7 @@
 site: SQL
-title: Random SQL
+title: random SQL
 description: >-
-  Random SQL things
+  random SQL things
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Rome
@@ -9,7 +9,7 @@ timezone: Rome
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: sql
+  name: random sql
   bio: random sql
   username: sql # general username
   # github: p0wex # github username
