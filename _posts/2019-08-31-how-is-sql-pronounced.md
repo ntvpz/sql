@@ -7,17 +7,6 @@ tags: sql
 minute: 1
 ---
 
-# h1
-
-## h2
-
-### h3
-
-#### h4
-
-##### h5
-
----
 
 You might’ve heard some developers pronouncing it as “S-Q-L” [ ˈɛs kjuː ˈɛl ] and others using “sequel” [ ˈsiːkwəl ]. It can start an argument anytime within the database community. So what’s the right way to pronounce it?
 
