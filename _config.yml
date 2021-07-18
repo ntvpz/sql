@@ -4,7 +4,7 @@ description: >-
   random SQL things
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
+timezone: Toronto
 # repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
