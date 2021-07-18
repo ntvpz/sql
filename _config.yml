@@ -18,7 +18,7 @@ author:
 
 # URL settings
 url: "https://randomsql.com" 
-baseurl: "https://randomsql.com" # leave blank if not wishd
+baseurl: "" # leave blank if not wishd
 permalink: "https://randomsql.com/"
 permalink: pretty 
 
