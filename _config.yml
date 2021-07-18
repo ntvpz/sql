@@ -11,15 +11,15 @@ data-theme: dark # default theme "dark" | "light"
 author:
   name: sql
   bio: random sql
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  username: sql # general username
+  # github: p0wex # github username
+  # twitter: P0Wex # twitter username
+  # email: your-email@email.com # email adress
 
 # URL settings
-url: "https://powex.ml" #
+url: "https://ntvpz.github.io" 
 baseurl: "" # leave blank if not wishd
-permalink: "https://powex.ml/Gesko/"
+permalink: ""
 permalink: pretty 
 
 
