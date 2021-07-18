@@ -8,7 +8,7 @@ minute: 1
 ---
 
 
-This might be just another trivia question but how do you pronounce SQL properly? Nobody knows, but it can be easily come up in a random discussion within the SQL database community.
+This might be just another trivia question but how do you pronounce SQL properly? Nobody knows for sure. It's been a never-ending argument and can be easily come up in a random discussion within the SQL database community.
 
 Two of the most popular pronunciations are `S-Q-L` [ ˈɛs kjuː ˈɛl ] and `sequel` [ ˈsiːkwəl ]. 
 
@@ -23,7 +23,7 @@ It's interesting that Oracle sides with SEQUEL on this:
 
 > Dr. E. F. Codd published the paper, "A Relational Model of Data for Large Shared Data Banks", in June 1970 in the Association of Computer Machinery (ACM) journal, Communications of the ACM. Codd's model is now accepted as the definitive model for relational database management systems (RDBMS). The language, Structured English Query Language (SEQUEL) was developed by IBM Corporation, Inc., to use Codd's model. SEQUEL later became SQL (still pronounced "sequel"). In 1979, Relational Software, Inc. (now Oracle) introduced the first commercially available implementation of SQL. Today, SQL is accepted as the standard RDBMS language.
 
-But from MySQL official docs:
+But it was stated otherwise on the MySQL official docs:
 
 > The official way to pronounce “MySQL” is “My Ess Que Ell” (not “my sequel”), but we do not mind if you pronounce it as “my sequel” or in some other localized way.
 
