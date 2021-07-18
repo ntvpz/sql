@@ -18,7 +18,7 @@ author:
 
 # URL settings
 url: "https://randomsql.com" 
-baseurl: "https://randomsql.com/" # leave blank if not wishd
+baseurl: "https://randomsql.com" # leave blank if not wishd
 permalink: "https://randomsql.com/"
 permalink: pretty 
 
@@ -57,7 +57,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:year/:month/:slug
   
 defaults:
   -
