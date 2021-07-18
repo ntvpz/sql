@@ -19,7 +19,7 @@ author:
 # URL settings
 url: "https://ntvpz.github.io" 
 baseurl: "" # leave blank if not wishd
-permalink: ""
+permalink: "https://ntvpz.github.io/"
 permalink: pretty 
 
 
