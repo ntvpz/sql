@@ -3,7 +3,7 @@ layout: post
 title: Lost connection to MySQL server at 'reading initial communication packet', system error 0
 description: MySQL error Lost connection to MySQL server at 'reading initial communication packet', system error 0 and how to fix it
 summary: MySQL error Lost connection to MySQL server at 'reading initial communication packet', system error 0 and how to fix it
-tags: mysql, networking
+tags: mysql networking
 minute: 1
 ---
 
