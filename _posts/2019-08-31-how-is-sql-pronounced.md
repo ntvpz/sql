@@ -8,7 +8,7 @@ minute: 1
 ---
 
 
-This might be just another trivia question but how do you pronounce SQL properly? Nobody knows for sure. It's been a never-ending argument and can easily come up in a random discussion within the SQL database community.
+This might be just another trivia question but how do you pronounce SQL properly? Nobody knows for sure. It's a never-ending argument and can easily come up in a random discussion within the SQL database community.
 
 ![How to pronounce SQL correctly?](/assets/img/pronounce/sql.png "How to pronounce SQL correctly?")
 
