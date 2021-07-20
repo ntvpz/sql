@@ -7,7 +7,7 @@ tags: mysql networking
 minute: 2
 ---
 
-While running a large operation such as import a big SQL bump file, MySQL might die halfway through with the following error:
+While running a large operation such as importing a big SQL dump file, MySQL might die halfway through with the following error:
 
 > “General error: 2006 MySQL server has gone away“
 
@@ -25,11 +25,11 @@ There are two reasons for that error:
 * The server timed out and closed the connection.
 * The server dropped a too large packet. If `mysqld` receives a packet that is too large, it assumes that something has gone wrong with the client and closes the connection.
 
-**Here's what happened**: You and MySQL server were doing some business and you gave it a relatively large deal. MySQL didn't say no, it carried on with the task. After running for awhile, MySQL changed its mind and said: "The task is either too big or taking too long, so I'm out of this shit". 
+**Here's what happened**: You and MySQL server were doing some business and you gave it a relatively large deal. MySQL didn't say no, it carried on with the task. After running for a while, MySQL changed its mind and said: "The task is either too big or taking too long, so I'm out of this shit". 
 
 Then it timed out and closed the connection.
 
-You can try 2 methods below to fix it:
+You can try the 2 methods below to fix it:
 
 ### 1. Increase the `wait_timeout`
 
@@ -60,14 +60,14 @@ First, check the current `max_allowed_packet` value:
 ```
 SELECT @@max_allowed_packet;
 ```
-From your client side, increase the global value of max_allowed_packetby running this command after logging in to the root account:
 
+Then set a bigger `max_allowed_packet` value:
 
 ```
 SET GLOBAL max_allowed_packet=107374182;
 ```
 
-You can set your own value, `107374182` is equivalent to 100MB
+You can set your own value, `107374182` is equivalent to 100MB.
 
 You can also access and edit the `max_allowed_packet` variable inside the MySQL configuration file `my.cnf`:
 
@@ -77,4 +77,4 @@ max_allowed_packet=107374182
 
 Then restart the server and try again.
 
-In some other cases, it's just because of the MySQL server has ran out or RAM, so you might need to check that as well.
+In some other cases, it's just because the MySQL server has run out of RAM, so you might need to check that as well.
