@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “MySQL server has gone away“ - Where to find her and how to get her back?
+title: “MySQL server has gone away“ - Why and how to fix?
 description: MySQL server dies halfway through processing big files with the following error “MySQL server has gone away“. What to do?
 summary: MySQL server dies halfway through processing big files with the following error “MySQL server has gone away“. What to do?
 tags: mysql networking
