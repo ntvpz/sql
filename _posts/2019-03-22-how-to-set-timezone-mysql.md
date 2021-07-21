@@ -11,8 +11,8 @@ minute: 1
 There are 3 ways to set timezone in MySQL
 
 * Using MySQL configuration file `my.cnf`
-* Using @@global.time_zone variable
-* Using @@session.time_zone variable
+* Using `@@global.time_zone` variable
+* Using `@@session.time_zone` variable
 
 Let's get into each of them.
 
