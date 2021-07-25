@@ -11,7 +11,7 @@ If you run into this error with MySQL:
 
 > Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db.table.col' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
 
-It’s likely because you have the ONLY_FULL_GROUP_BY function enabled. To fix this, you have to disable it.
+It’s likely because you have the `ONLY_FULL_GROUP_BY` function enabled. To fix this, you have to disable it.
 
 First, check the current `sql_mode`:
 
