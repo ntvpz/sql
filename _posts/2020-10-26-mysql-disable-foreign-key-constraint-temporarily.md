@@ -21,7 +21,7 @@ It's just that simple. And when you need to turn it back on, simple set it to 1:
 SET FOREIGN_KEY_CHECKS=1;
 ```
 
-Please be noted that it only appy to the current connection, so if you want to disable it for all connections, use the follow query:
+Please be noted that it only appy to the current connection, so if you want to disable it for all connections, use the following query:
 
 ```
 SET GLOBAL FOREIGN_KEY_CHECKS=0;
