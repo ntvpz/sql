@@ -15,13 +15,13 @@ In some cases, altering a table that has foreign key constraints would be troubl
 SET FOREIGN_KEY_CHECKS=0;
 ```
 
-It's just that simple. And when you need to turn it back on, simple set it to 1:
+It's just that simple. And when you need to turn it back on, simply set it to 1:
 
 ```
 SET FOREIGN_KEY_CHECKS=1;
 ```
 
-Please be noted that it only appy to the current connection, so if you want to disable it for all connections, use the following query:
+Please be noted that it only apply to the current connection, so if you want to disable it for all connections, use the following query:
 
 ```
 SET GLOBAL FOREIGN_KEY_CHECKS=0;
@@ -51,7 +51,7 @@ ALTER TABLE table_name ENABLE KEYS;
 
 ### 3. A little trick, use `ON DELETE SET NULL`
 
-Instead of turning foreign key check on and off which might cause unwanted data integrity issue, you can use `ON DELETE SET NULL` on the target table:
+Instead of turning foreign key check on and off which might cause unwanted data integrity issues, you can use `ON DELETE SET NULL` on the target table:
 
 Alter the table and delete the current foreign key first:
 
