@@ -12,8 +12,8 @@ There's a way to trace MySQL queries as they are executed on the server.
 First, enable query logging on the database:
 
 ```
-SET GLOBAL general_log = 1;
 SET GLOBAL log_output = "TABLE";
+SET GLOBAL general_log = 1;
 ```
 
 Now you can view the log from the table `mysql.general_log`:
@@ -28,9 +28,9 @@ FROM
 If you want to log the output to a file instead:
 
 ```
-SET GLOBAL general_log = 1;
 SET GLOBAL log_output = "FILE";
 SET GLOBAL general_log_file = "/path/to/your/logfile.log"
+SET GLOBAL general_log = 1;
 ```
 
 When you want to disable query logging:
