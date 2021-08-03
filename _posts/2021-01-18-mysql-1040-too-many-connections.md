@@ -21,11 +21,13 @@ SHOW VARIABLES LIKE "max_connections";
 
 The result should be like this:
 
+```
 +-----------------+-------+
 | Variable_name   | Value |
 +-----------------+-------+
 | max_connections | 100   |
 +-----------------+-------+
+```
 
 MySQL actually allows up to max_connections + 1 connections as the extra connection can be used by the user with `CONNECTION_ADMIN` privilege only.
 
