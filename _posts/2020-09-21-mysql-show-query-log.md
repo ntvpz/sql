@@ -12,7 +12,7 @@ There's a way to trace MySQL queries as they are executed on the server.
 First, enable query logging on the database:
 
 ```
-SET GLOBAL general_log = '1';
+SET GLOBAL general_log = 1;
 SET GLOBAL log_output = "TABLE";
 ```
 
@@ -28,7 +28,7 @@ FROM
 If you want to log the output to a file instead:
 
 ```
-SET GLOBAL general_log = '1';
+SET GLOBAL general_log = 1;
 SET GLOBAL log_output = "FILE";
 SET GLOBAL general_log_file = "/path/to/your/logfile.log"
 ```
