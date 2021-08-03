@@ -29,7 +29,7 @@ The result should be like this:
 +-----------------+-------+
 ```
 
-MySQL actually allows up to max_connections + 1 connections as the extra connection can be used by the user with `CONNECTION_ADMIN` privilege only.
+MySQL actually allows up to `max_connections` + 1 connections as the extra connection can be used by the user with `CONNECTION_ADMIN` privilege only.
 
 Now set a higher value for `max_connections`:
 
@@ -39,7 +39,7 @@ SET GLOBAL max_connections = 500;
 
 You can also increase it by editing the configuration file [my.cnf](https://randomsql.com/2020/05/where-to-find-mysql-mycnf-file)
 
-Under the [mysqld] section add the following line:
+Under the `[mysqld]` section, add the following line:
 
 ```
 max_connections = 500
