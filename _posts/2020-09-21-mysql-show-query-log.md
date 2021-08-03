@@ -37,4 +37,4 @@ When you want to disable query logging:
 
 SET GLOBAL general_log = 0;
 
-See the [official docs](https://dev.mysql.com/doc/refman/8.0/en/query-log.html) from MySQL for more information.
+See the [official docs](https://dev.mysql.com/doc/refman/8.0/en/query-log.html) from MySQL for more information about the General Query Log.
